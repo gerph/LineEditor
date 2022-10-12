@@ -10,7 +10,9 @@ PyromaniacDebug +daheaperror,heap,osheap
 | What's in the destination directory
 |ex <Obey$Dir>.Release
 | The copy operation that failed
-Copy <Obey$Dir>.* <Obey$Dir>.Release.* ~C~RQ
+x Copy <Obey$Dir>.* <Obey$Dir>.Release.* ~C~RQ
+*memoryi 4109000+10
+if "X$Error" <> "" Then error Nope failed
 
 Delete <Obey$Dir>.Release.!!Release
 Delete <Obey$Dir>.Release.KeyLib
