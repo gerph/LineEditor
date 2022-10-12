@@ -11,7 +11,8 @@ PyromaniacDebug +daheaperror,heap,osheap
 |ex <Obey$Dir>.Release
 | The copy operation that failed
 x Copy <Obey$Dir>.* <Obey$Dir>.Release.* ~C~RQ
-*memoryi 4109000+10
+Help DynamicAreas
+memoryi 4109000+10
 if "X$Error" <> "" Then error Nope failed
 
 Delete <Obey$Dir>.Release.!!Release
