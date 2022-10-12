@@ -3,6 +3,7 @@ Basic -chain <Obey$Dir>.LESrc
 CDir <Obey$Dir>.Release
 | What's going on with the dynamic areas
 Help DynamicAreas
+PyromaniacDebug +daheaperror,heap,osheap
 | What's in the source directory
 |ex <Obey$Dir>
 | What's in the destination directory
