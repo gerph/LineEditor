@@ -1,6 +1,13 @@
 Dir <Obey$Dir>
 Basic -chain <Obey$Dir>.LESrc
 CDir <Obey$Dir>.Release
+| What's going on with the dynamic areas
+Help DynamicAreas
+| What's in the source directory
+ex <Obey$Dir>
+| What's in the destination directory
+ex <Obey$Dir>.Release
+| The copy operation that failed
 Copy <Obey$Dir>.* <Obey$Dir>.Release.* ~C~RQ
 
 Delete <Obey$Dir>.Release.!!Release
